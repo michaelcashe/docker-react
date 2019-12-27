@@ -1,0 +1,192 @@
+    1  docker -version
+    2  docker --version
+    3  docker version
+    4  docker run hello-world
+    5  docker run hello-world
+    6  clear
+    7  docker run busybox echo hi there
+    8  docker run busybox ls
+    9  docker ps
+   10  docker run busybox ping google.com
+   11  ping
+   12  ping google.com
+   13  ping google.com
+   14  docker run busybox ping google.com
+   15  docker run busybox ping https://google.com
+   16  ping google.com
+   17  docker ps --all
+   18  docker create hello-world
+   19  docker start -a 418dcb80309d691998ac2dd43115e971a105717cd08f30486d70990228a44493
+   20  docker create hello-world
+   21  docker start 418dcb80309d691998ac2dd43115e971a105717cd08f30486d70990228a44493
+   22  docker create busybox echo hi there
+   23  docker start 418dcb80309d691998ac2dd43115e971a105717cd08f30486d70990228a44493
+   24  docker ps --all
+   25  docker start 135665ceb336
+   26  docker logs 135665ceb336
+   27  exit
+   28  docker ps
+   29  docker ps --all
+   30  docker system prune
+   31  docker ps --all
+   32  exit
+   33  redis-cli
+   34  docker ps
+   35  docker exec -it 63c2c8ec20a1 redis-cli
+   36  docker exec 63c2c8ec20a1 redis-cli
+   37  docker exec -i 63c2c8ec20a1 redis-cli
+   38  docker exec -i 63c2c8ec20a1 sh
+   39  docker exec -it 63c2c8ec20a1 sh
+   40  docker run -it busybox sh
+   41  docker system prune
+   42  docker run -it busybox sh
+   43  exit
+   44  docker run -it busybox sh
+   45  exit
+   46  docker ps
+   47  docker system prune
+   48  exit
+   49  docker create ping google.com
+   50  history
+   51  docker create busybox ping google.com
+   52  docker ps --all
+   53  docker start 3fb2633819da41e4e0161cf7373960b0df0d3035a16ec02c18229212febdf50b
+   54  docker logs 3fb2633819da41e4e0161cf7373960b0df0d3035a16ec02c18229212febdf50b
+   55  docker ps
+   56  docker logs 3fb2633819da41e4e0161cf7373960b0df0d3035a16ec02c18229212febdf50b
+   57  docker ps
+   58  docker stop 3fb2633819da 
+   59  docker run redis
+   60  docker ps
+   61  docker system prune
+   62  exit
+   63  exit
+   64  . code
+   65  code
+   66  echo $PATH
+   67  cd ~
+   68  pwd
+   69  mkdir Udemy
+   70  mkdir Udemy/DockerTutorial
+   71  cd Udemy/DockerTutorial/
+   72  mkdir redis-image
+   73  cd redis-image/
+   74  docker build .
+   75  docker run 34a33bb214a8
+   76  exit
+   77  docker-machine ip
+   78  docker run -it michaelcashe/simpleweb sh
+   79  docker build -t michaelcashe/simpleweb .
+   80  exit
+   81  cd /c/Users/micha/Udemy/DockerTutorial/redis-image/
+   82  docker build -t michaelcashe/redis:latest .
+   83  docker run michaelcashe/redis
+   84  CD ..
+   85  cd ..
+   86  mkdir simpleweb
+   87  cd simpleweb/
+   88  ls
+   89  ls
+   90  docker build .
+   91  docker build .
+   92  clear
+   93  docker build .
+   94  docker build -t michaelcashe/simpleweb .
+   95  docker run michaelcashe/simpleweb
+   96  docker run -p 8080:8080 michaelcashe/simpleweb
+   97  docker run -p 5000:8080 michaelcashe/simpleweb
+   98  docker run -p 5000:8080 michaelcashe/simpleweb
+   99  docker system prune
+  100  docker build -t michaelcashe/simpleweb .
+  101  docker run -p 5000:8080 michaelcashe/simpleweb
+  102  docker run -p 5001:8080 michaelcashe/simpleweb
+  103  exit
+  104  cd simpleweb/
+  105  docker build -t michaelcashe/simpleweb .
+  106  docker run --publish 5001:8080 michaelcashe/simpleweb .
+  107  docker ps --all
+  108  docker stop e6b151364e27 
+  109  docker run --publish 5001:8080 michaelcashe/simpleweb .
+  110  docker kill --all
+  111  docker system prune
+  112  docker build -t michaelcashe/simpleweb .
+  113  docker ps
+  114  docker build -t michaelcashe/simpleweb .
+  115  docker run --publish 5001:8080 michaelcashe/simpleweb .
+  116  docker run --publish 5002:8080 michaelcashe/simpleweb .
+  117  docker run -p 5002:8080 michaelcashe/simpleweb .
+  118  docker build -t michaelcashe/simpleweb .
+  119  docker build -t michaelcashe/simpleweb .
+  120  docker run -p 5002:8080 michaelcashe/simpleweb .
+  121  history
+  122  docker ps
+  123  docker stop 8a5faa128dde 
+  124  docker stop
+  125  docker stop c0e84468f1c4 
+  126  docker stop 93dc9978e778 
+  127  docker stop 63c2c8ec20a1 
+  128  clear
+  129  docker ps
+  130  docker stop 2184264a8f20 
+  131  docker stop 17f8a05c8979 
+  132  docker ps --all
+  133  docker kill
+  134  docker kill --help
+  135  exit
+  136  cd simpleweb/
+  137  clear
+  138  docker build -t michaelcashe/simpleweb .
+  139  docker run -p 5002:8080 michaelcashe/simpleweb .
+  140  docker run -it michaelcashe/simpleweb sh
+  141  docker run -p 5002:8080 michaelcashe/simpleweb .
+  142  docker run -it michaelcashe/simpleweb sh
+  143  docker build -t michaelcashe/simpleweb .
+  144  docker run -it michaelcashe/simpleweb sh
+  145  docker build -t michaelcashe/simpleweb .
+  146  docker run -p 5002:8080 michaelcashe/simpleweb .
+  147  docker build -t michaelcashe/simpleweb .
+  148  docker run -p 5002:8080 michaelcashe/simpleweb .
+  149  docker run -it michaelcashe/simpleweb sh
+  150  docker run -it michaelcashe/simpleweb sh
+  151  exit
+  152  history
+  153  docker ps
+  154  docker exec -it f07f8dfc9f4e sh
+  155  mkdir visits
+  156  cd visits/
+  157  touch index.js
+  158  touch package.json
+  159  touch Dockerfile
+  160  docker build -t michaelcashe/visits .
+  161  docker run michaelcashe/visits
+  162  docker run michaelcashe/visits
+  163  exit
+  164  pwd
+  165  exit
+  166  cd visits/
+  167  docker ps
+  168  docker-compose down
+  169  docker-compose up --build
+  170  docker-compose up
+  171  node -v
+  172  exit
+  173  node -v
+  174  dir
+  175  npx create-react-app client
+  176  dir
+  177  cd client/
+  178  dir
+  179  npm run start
+  180  dir
+  181  cd client/
+  182  dir
+  183  touch Dockerfile.dev
+  184  history
+  185  docker build -f Dockerfile.dev .
+  186  docker build -f Dockerfile.dev .
+  187  docker run 9ce7a9389c4b
+  188  docker run -p 3000:3000 9ce7a9389c4b
+  189  cd client/
+  190  docker-compose up --build
+  191  history
+  192  history > history.txt
